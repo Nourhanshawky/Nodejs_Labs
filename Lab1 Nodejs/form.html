@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Registration Form</title>
+    <Link rel="stylesheet" href="./style.css">
+        <style>
+            header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    
+    
+}
+.Navbar {
+    list-style: none;
+    display: flex;
+          
+    
+
+}
+.Navbar li{
+    margin: 16px;
+   
+}
+.Navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+            .form{
+   
+   border: 3px solid green;
+   background-color: #e8f5e9;
+  margin-left: 200px;
+  margin-right:200px ;
+  margin-top: 15px;
+  padding: 15px;
+   
+}
+.form form{
+   text-align: center;
+}
+#star{
+   color: red;
+}
+/* .child{
+   display:inline-block; */
+   /* vertical-align: middle; */
+   
+/* } */
+label:not(.splabel){
+   display: inline-block;
+   width: 200px;
+   height: 20px;
+   /* margin-right: 18px; */
+   border:  1px  solid #c8e6c9;
+   background-color: #c8e6c9;
+   padding: 5px;
+   text-align: right;
+
+}
+h3{
+   border: 2px green solid ;
+   border-style: dashed;
+   background-color: #c8e6c9;
+   padding: 3px;
+}
+
+        </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <ul class="Navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./roadmap.html">Road Map</a></li>
+            <li><a href=".#">Registration Form</a></li>
+            <!-- <li><a href="https://iti.gov.eg/iti/home">Contact</a></li> -->
+        </ul>
+    
+            <img src="ITI_logo.png" alt="this is a likable backgroud" width="200" height="90" style="border: 1px solid black;">
+        </header>
+    <!-- End of Navbar --> 
+    <div class="form">
+    <h1 style="color: #66bb6a;">Register-Create Account</h1>
+    <h3>Feild Marked with <span id="star">*</span> are compulsory feilds </h3>
+
+    <form action="./index.html" method="get" >
+        <table>
+            <tr class="t1">
+            <td><label><span id="star">*</span>Your Name</label></td>
+            <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label><span id="star">*</span>E-Mail ID</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label>Alternate E-Mail ID</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr >
+                    <td> <label>Phone</label></td>
+                    
+                    <td style="display: inline;">
+                        <label class="splabel">Country Code</label>
+                        <input type="text"  size="10"></td>
+                    <td ><p>-</p></td>
+                    <td style="display: inline;">
+                        <label class="splabel" >City Code</label>
+                        <input type="text" size="6" ></td>
+                    <td ><p>-</p></td>
+                    <td style="display: inline;">
+                        <label class="splabel">Phone Number</label>
+                        <input type="number"></td>
+                    
+            </tr>
+            <tr>
+                <td><label>Mobile Phone</label></td>
+                <td> <input type="number"></td>
+            </tr>
+            <tr>
+                <td><label><span id="star">*</span>Your Postal Address</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label><span id="star">*</span>Country</label></td>
+                <td> <select>
+                    <option value="Selsect one">-------Select One--------</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label><span id="star">*</span>Password</label></td>
+                <td> <input type="password"></td>
+            </tr>
+            <tr>
+                <td> <label><span id="star">*</span>Re-enter password</label></td>
+                <td> <input type="password"></td>
+            </tr>
+        </table>
+     
+   
+        
+        <input type="checkbox">
+
+        <label class="splabel">I accept <span style="text-decoration: underline; color: blue;"><b>Terms of Use</b></span></label>
+        <br><br/>
+       
+        <input type="submit" value="Continue>>"  >
+        <input type="reset" value="Reset">
+        <br/>
+
+    </form>
+
+</div>
+
+    <hr>
+    <h4 style="color: darkblue; text-align: center;" >copyrigt 2021 by Noha Salah 	&reg; . All Rights Reserved</h4>
+    
+
+</body>
+</html>
